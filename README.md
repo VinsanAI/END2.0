@@ -18,6 +18,8 @@ Assignment for Session 2 - Backpropagation, Embeddings &amp; Language Models
 
 > **Note :** We have also added the screenshots of the above gif in the repository for reference, please find them [here](https://github.com/VinsanAI/END3.0/tree/Assignment_2/Change%20in%20Error%20with%20LR%20-%20Screenshots).
 
+![image](https://user-images.githubusercontent.com/56379895/135641669-ae9fd498-e0b2-4c49-b448-5a8c81f43dc8.png)
+
 # 3. Detailed Explaination of each major step :
 
 ![image](https://user-images.githubusercontent.com/56379895/135442691-96b68e69-79a4-4beb-bd42-d0cebe4fa6d1.png)

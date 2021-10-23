@@ -60,23 +60,23 @@ We have got the arg max of the each of the output as them being softmax outputs 
 We ave picked the l1 loss which is l1_loss = L1+L2, we just add up both the losses and we try to optimize on this total loss.
 
 ## 8) Short Training logs for last 20 epochs :
-epoch 80  | total_correct_labels: 29931 / 99.77 %  | total_correct_sum: 24284 / 80.95 %  | loss: 3452.8211476802826
-epoch 81  | total_correct_labels: 29950 / 99.83 %  | total_correct_sum: 24288 / 80.96 %  | loss: 3452.0823731422424
-epoch 82  | total_correct_labels: 29959 / 99.86 %  | total_correct_sum: 24288 / 80.96 %  | loss: 3451.7018542289734
-epoch 83  | total_correct_labels: 29952 / 99.84 %  | total_correct_sum: 24294 / 80.98 %  | loss: 3451.3384234905243
-epoch 84  | total_correct_labels: 29951 / 99.84 %  | total_correct_sum: 24290 / 80.97 %  | loss: 3451.5886418819427
-epoch 85  | total_correct_labels: 29956 / 99.85 %  | total_correct_sum: 24284 / 80.95 %  | loss: 3451.7453439235687
-epoch 86  | total_correct_labels: 29931 / 99.77 %  | total_correct_sum: 24278 / 80.93 %  | loss: 3452.929561138153
-epoch 87  | total_correct_labels: 29958 / 99.86 %  | total_correct_sum: 24283 / 80.94 %  | loss: 3451.568645477295
-epoch 88  | total_correct_labels: 29967 / 99.89 %  | total_correct_sum: 24297 / 80.99 %  | loss: 3450.4921522140503
-epoch 89  | total_correct_labels: 29925 / 99.75 %  | total_correct_sum: 24274 / 80.91 %  | loss: 3453.460672855377
-epoch 90  | total_correct_labels: 29954 / 99.85 %  | total_correct_sum: 24292 / 80.97 %  | loss: 3451.5346150398254
-epoch 91  | total_correct_labels: 29933 / 99.78 %  | total_correct_sum: 24312 / 81.04 %  | loss: 3451.56968998909
-epoch 92  | total_correct_labels: 29946 / 99.82 %  | total_correct_sum: 24594 / 81.98 %  | loss: 3442.7339725494385
-epoch 93  | total_correct_labels: 29944 / 99.81 %  | total_correct_sum: 24598 / 81.99 %  | loss: 3442.9750261306763
-epoch 94  | total_correct_labels: 29967 / 99.89 %  | total_correct_sum: 24610 / 82.03 %  | loss: 3441.266167640686
-epoch 95  | total_correct_labels: 29958 / 99.86 %  | total_correct_sum: 24607 / 82.02 %  | loss: 3441.528431415558
-epoch 96  | total_correct_labels: 29941 / 99.8 %  | total_correct_sum: 24587 / 81.96 %  | loss: 3442.9206795692444
-epoch 97  | total_correct_labels: 29948 / 99.83 %  | total_correct_sum: 24603 / 82.01 %  | loss: 3442.327206134796
-epoch 98  | total_correct_labels: 29956 / 99.85 %  | total_correct_sum: 24596 / 81.99 %  | loss: 3442.1709427833557
-epoch 99  | total_correct_labels: 29971 / 99.9 %  | total_correct_sum: 24609 / 82.03 %  | loss: 3440.953696012497
+epoch 80  | total_correct_labels: 29931 / 99.77 %  | total_correct_sum: 24284 / 80.95 %  | loss: 3452.8211476802826   
+epoch 81  | total_correct_labels: 29950 / 99.83 %  | total_correct_sum: 24288 / 80.96 %  | loss: 3452.0823731422424   
+epoch 82  | total_correct_labels: 29959 / 99.86 %  | total_correct_sum: 24288 / 80.96 %  | loss: 3451.7018542289734   
+epoch 83  | total_correct_labels: 29952 / 99.84 %  | total_correct_sum: 24294 / 80.98 %  | loss: 3451.3384234905243   
+epoch 84  | total_correct_labels: 29951 / 99.84 %  | total_correct_sum: 24290 / 80.97 %  | loss: 3451.5886418819427   
+epoch 85  | total_correct_labels: 29956 / 99.85 %  | total_correct_sum: 24284 / 80.95 %  | loss: 3451.7453439235687   
+epoch 86  | total_correct_labels: 29931 / 99.77 %  | total_correct_sum: 24278 / 80.93 %  | loss: 3452.929561138153   
+epoch 87  | total_correct_labels: 29958 / 99.86 %  | total_correct_sum: 24283 / 80.94 %  | loss: 3451.568645477295   
+epoch 88  | total_correct_labels: 29967 / 99.89 %  | total_correct_sum: 24297 / 80.99 %  | loss: 3450.4921522140503   
+epoch 89  | total_correct_labels: 29925 / 99.75 %  | total_correct_sum: 24274 / 80.91 %  | loss: 3453.460672855377   
+epoch 90  | total_correct_labels: 29954 / 99.85 %  | total_correct_sum: 24292 / 80.97 %  | loss: 3451.5346150398254   
+epoch 91  | total_correct_labels: 29933 / 99.78 %  | total_correct_sum: 24312 / 81.04 %  | loss: 3451.56968998909   
+epoch 92  | total_correct_labels: 29946 / 99.82 %  | total_correct_sum: 24594 / 81.98 %  | loss: 3442.7339725494385   
+epoch 93  | total_correct_labels: 29944 / 99.81 %  | total_correct_sum: 24598 / 81.99 %  | loss: 3442.9750261306763   
+epoch 94  | total_correct_labels: 29967 / 99.89 %  | total_correct_sum: 24610 / 82.03 %  | loss: 3441.266167640686   
+epoch 95  | total_correct_labels: 29958 / 99.86 %  | total_correct_sum: 24607 / 82.02 %  | loss: 3441.528431415558   
+epoch 96  | total_correct_labels: 29941 / 99.8 %  | total_correct_sum: 24587 / 81.96 %  | loss: 3442.9206795692444   
+epoch 97  | total_correct_labels: 29948 / 99.83 %  | total_correct_sum: 24603 / 82.01 %  | loss: 3442.327206134796   
+epoch 98  | total_correct_labels: 29956 / 99.85 %  | total_correct_sum: 24596 / 81.99 %  | loss: 3442.1709427833557   
+epoch 99  | total_correct_labels: 29971 / 99.9 %  | total_correct_sum: 24609 / 82.03 %  | loss: 3440.953696012497   

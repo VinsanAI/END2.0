@@ -28,10 +28,10 @@ Inputs :
 
 Outputs from model :
 * output_1 - Image_label - size(1,10)
-* output_2 - Sum_label - size(1,19) - because values can range from 0-18
+* output_2 - Sum_label - size(1,19) - because values can range from 0-18 (0+0 to 9+9)
 
 ## 3) Data Generation Strategy :
-We have generated the random numbers using numpy (np.random.randint) and we have created a function called 'create_one_hotencoding_inp' which will create the onehot encoding of the input number to the functiona nd outputs the lists of that encoded vector. 
+We have generated the random numbers using numpy (np.random.randint) and we have created a function called 'create_one_hotencoding_inp' which will create the onehot encoding of the input number to the function and outputs the lists of that encoded vector. 
 
 So during data preparation we have created a new target called as 'sum_label' which is nothing but the sum of my random generated input numbers and the images labels already present with mnist. Thus we were successfully able to create the new label for my network.
 
@@ -41,7 +41,7 @@ So during data preparation we have created a new target called as 'sum_label' wh
 
 In the above image as you can see after we do the convolutions on the image when we flatten all the values to fully connected network we are adding just 10 nodes at this place for which we will pass the input of random number during training.
 
-## 5) how you are evaluating your results ?
+## 5) How you are evaluating your results ?
 Model evaluation is done at each epoch by calculating the percentage of correct labels predicted and we observe whether our loss is reducing over the epoch if not we have tried changing multiple parameters like increasing trainset, changing batch size, changing learning rate etc
 below are the train accuracies : 
 * image label : 99.9%
